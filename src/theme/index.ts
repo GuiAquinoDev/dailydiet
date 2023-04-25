@@ -2,32 +2,33 @@ export default {
     COLORS: {
       WHITE: '#FFFFFF',
   
-      RED: '#F75A68',
-      RED_DARK: '#AA2834',
+      RED_DARK: '#BF3B44',
+      RED_MID: '#F3BABD',
+      RED_LIGHT: '#F4E6E7',
   
-      GRAY_700: '#0D0D0D',
-      GRAY_600: '#202024',
-      GRAY_500: '#262626',
-      GRAY_400: '#333333',
-      GRAY_300: '#808080',
-      GRAY_200: '#D9D9D9',
-      GRAY_100: '#F2F2F2',
+      GREEN_DARK: '#639339',
+      GREEN_MID: '#CBE4B4',
+      GREEN_LIGHT: '#E5F0DB',
       
-      PURPLE: '#8284FA',
-      PURPLE_DARK: '#5E60CE',
-
-      BLUE_DARK: '#1E6F9F',
-      BLUE: '#4EA8DE'
-
+      GRAY_1: '#1B1D1E',
+      GRAY_2: '#333638',
+      GRAY_3: '#5C6265',
+      GRAY_4: '#B9BBBC',
+      GRAY_5: '#DDDEDF',
+      GRAY_6: '#EFF0F0',
+      GRAY_7: '#FAFAFA',
+      
     },
     FONT_FAMILY: {
       REGULAR: 'Inter_400Regular',
       BOLD: 'Inter_700Bold',
     },
     FONT_SIZE: {
+      XS: 12,
       SM: 14,
       MD: 16,
       LG: 18,
-      XL: 24
+      XL: 24,
+      XXL:32,
     }
   };
