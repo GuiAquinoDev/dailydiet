@@ -1,19 +1,22 @@
-import {} from 'styled-components/native'
-import { Text, View } from "react-native";
+import { ThemeProvider } from "styled-components/native";
 import {
   useFonts,
   NunitoSans_400Regular,
   NunitoSans_600SemiBold,
 } from "@expo-google-fonts/nunito-sans";
-import { Home } from "./src/screens/Home";
+import theme from "./src/theme";
+import { Home } from "@screens/Home";
+import { Loading } from "@components/Loading";
 
 export default function App() {
-
-  const [fontsLoaded] = useFonts({NunitoSans_400Regular, NunitoSans_600SemiBold});
+  const [fontsLoaded] = useFonts({
+    NunitoSans_400Regular,
+    NunitoSans_600SemiBold,
+  });
 
   return (
-    <View>
-      {fontsLoaded ? <Home/> : <View/>}
-    </View>
+    <ThemeProvider theme={theme}>
+      {fontsLoaded ? <Home /> : <Loading />}
+    </ThemeProvider>
   );
 }
