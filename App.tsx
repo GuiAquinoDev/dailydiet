@@ -1,3 +1,4 @@
+import {} from 'styled-components/native'
 import { Text, View } from "react-native";
 import {
   useFonts,
