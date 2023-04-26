@@ -27,4 +27,8 @@ export const InfoIcon = styled(ArrowUpRight).attrs(({ theme }) => ({
     size: 24,
 }))``
 
+export const StaticInfo = styled.Text``
 
+export const TextInfo = styled.Text`
+    color: black
+`

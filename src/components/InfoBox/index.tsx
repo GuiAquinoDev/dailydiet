@@ -1,10 +1,10 @@
-import { Container, StaticInfo ,TextInfo } from "./style";
+import { InfoItem } from "@components/InfoItens";
+import { Container } from "./style";
 
 export function InfoBox() {
     return (
         <Container>
-            <StaticInfo>90,86%</StaticInfo>
-            <TextInfo>das refeições dentro da dieta</TextInfo>
+            <InfoItem/>
         </Container>
     )
 }
