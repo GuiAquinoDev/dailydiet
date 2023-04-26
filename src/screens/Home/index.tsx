@@ -1,5 +1,5 @@
 import { Header } from "@components/Header";
-import { InfoBox } from "@components/InfoBox";
+import { DietStaticsBox } from "@components/DietStaticsBox";
 import { Container } from "./style";
 
 export function Home() {
@@ -7,7 +7,7 @@ export function Home() {
         <Container>
             <Header />
             
-            <InfoBox/>
+            <DietStaticsBox/>
         </Container>
     )
 }   
