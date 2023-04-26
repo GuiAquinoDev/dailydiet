@@ -10,18 +10,20 @@ type Props = {
 
 export const Container = styled.View`
     width:100%;
-    height: 104px;
-    
-    align-items: center;
-    justify-content: center;    
-
-    background: ${({theme}) => theme.COLORS.GREEN_LIGHT};
-    margin: 32px 0 42px 0;
+    height: 102px;
+ 
+    background: ${({ theme }) => theme.COLORS.GREEN_LIGHT};
+    padding: 20px 16px;
+    margin: 32px 0 40px 0;
 `
 
 export const ButtonIcon = styled(TouchableOpacity)`
-    flex:1;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    align-items: flex-end;
 `
+
 export const InfoIcon = styled(ArrowUpRight).attrs(({ theme }) => ({
     color: theme.COLORS.GREEN_DARK,
     size: 24,

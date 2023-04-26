@@ -20,8 +20,8 @@ export default {
       
     },
     FONT_FAMILY: {
-      REGULAR: 'Inter_400Regular',
-      BOLD: 'Inter_700Bold',
+      REGULAR: 'NunitoSans_400Regularr',
+      BOLD: 'NunitoSans_600SemiBold',
     },
     FONT_SIZE: {
       XS: 12,
