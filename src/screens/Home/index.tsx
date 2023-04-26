@@ -1,10 +1,10 @@
 import { Header } from "@components/Header";
-import { View } from "react-native";
+import { Container } from "./style";
 
 export function Home() {
     return (
-        <View>
+        <Container>
             <Header/>
-        </View>
+        </Container>
     )
-}
+}   
