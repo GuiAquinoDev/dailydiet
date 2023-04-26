@@ -1,4 +1,4 @@
-import { Container, LoadIndicator } from './styles'
+import { Container, LoadIndicator } from './style'
 
 export function Loading() {
     return (
